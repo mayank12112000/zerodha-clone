@@ -77,3 +77,15 @@
   background-color: rgb(233, 233, 233);
   margin: 0;
 }
+.custom-nav-link {
+  text-decoration: none !important;
+}
+
+.custom-nav-link:hover {
+  text-decoration: none !important;
+}
+
+.custom-nav-link.active {
+  font-weight: bold;
+}
+

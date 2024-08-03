@@ -1,15 +1,14 @@
 import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
-        
         <a className="navbar-brand" href="#">
           <img className="logo" src="media/logo.svg" alt="Zerodha icon" />
         </a>
-          <span className="navbar-toggler navbar-toggler-icon" data-bs-toggle="collapse"
+        <span className="navbar-toggler navbar-toggler-icon" data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
@@ -17,34 +16,22 @@ export default function Navbar() {
         <div className="collapse navbar-collapse justify-content-end mx-5" id="navbarSupportedContent">
           <ul className="navbar-nav mb-2 mb-lg-0">
             <li className="nav-item">
-              <NavLink to={"/"}>
-              <a className="nav-link active" aria-current="page" href="#">Home</a>
-              </NavLink>
+              <NavLink to="/" className="nav-link custom-nav-link" activeClassName="active" aria-current="page">Home</NavLink>
             </li>
             <li className="nav-item">
-              <Link to='/signup'>
-              <a className="nav-link" href="#">Signup</a>
-              </Link>
+              <NavLink to="/signup" className="nav-link custom-nav-link">Signup</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to={"/about"}>
-              <a className="nav-link" href="#">About</a>
-              </NavLink>
+              <NavLink to="/about" className="nav-link custom-nav-link">About</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to={"/products"}>
-              <a className="nav-link" href="#">Products</a>
-              </NavLink>
+              <NavLink to="/products" className="nav-link custom-nav-link">Products</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to={"/pricing"}>
-              <a className="nav-link" href="#">Pricing</a>
-              </NavLink>
+              <NavLink to="/pricing" className="nav-link custom-nav-link">Pricing</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to={"/support"}>
-              <a className="nav-link" href="#">Support</a>
-              </NavLink>
+              <NavLink to="/support" className="nav-link custom-nav-link">Support</NavLink>
             </li>
           </ul>
         </div>
