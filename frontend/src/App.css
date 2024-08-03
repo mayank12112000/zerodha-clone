@@ -1,5 +1,5 @@
-/* .App {
-  text-align: center;
+.App {
+  /* text-align: center; */
 }
 
 .App-logo {
@@ -35,4 +35,45 @@
   to {
     transform: rotate(360deg);
   }
-} */
+}
+.hero-btn{
+  width: 150px;
+}
+.pressLogo{
+  width: 90%;
+}
+.ecosystem{
+  width: 90%;
+}
+.arrow{
+  a{
+    text-decoration: none;
+  }
+}
+.largest-broker{
+  width: 100%;
+}
+.rupees{
+  color: rgb(201, 126, 47);
+}
+.container{
+  margin: auto;
+}
+.logo{
+  width: 25%;
+}
+.zerodha-logo{
+  width: 80%;
+}
+.navbar-toggler-icon{
+  position:absolute;
+  top: 15px;
+  right: 15px;
+}
+.links{
+  text-decoration: none;
+}
+.footer-bg{
+  background-color: rgb(233, 233, 233);
+  margin: 0;
+}
