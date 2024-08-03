@@ -16,7 +16,7 @@ export default function Navbar() {
         <div className="collapse navbar-collapse justify-content-end mx-5" id="navbarSupportedContent">
           <ul className="navbar-nav mb-2 mb-lg-0">
             <li className="nav-item">
-              <NavLink to="/" className="nav-link custom-nav-link" activeClassName="active" aria-current="page">Home</NavLink>
+              <NavLink to="/" className="nav-link custom-nav-link" aria-current="page">Home</NavLink>
             </li>
             <li className="nav-item">
               <NavLink to="/signup" className="nav-link custom-nav-link">Signup</NavLink>
