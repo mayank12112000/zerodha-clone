@@ -36,44 +36,45 @@
     transform: rotate(360deg);
   }
 }
-.hero-btn{
+.hero-btn {
   width: 150px;
 }
-.pressLogo{
+.pressLogo {
   width: 90%;
 }
-.ecosystem{
+.ecosystem {
   width: 90%;
 }
-.arrow{
-  a{
+.arrow {
+  a {
     text-decoration: none;
   }
 }
-.largest-broker{
+.largest-broker {
   width: 100%;
 }
-.rupees{
+.rupees {
   color: rgb(201, 126, 47);
 }
-.container{
+.container {
   margin: auto;
 }
-.logo{
+.logo {
   width: 25%;
 }
-.zerodha-logo{
+.zerodha-logo,
+.logos {
   width: 80%;
 }
-.navbar-toggler-icon{
-  position:absolute;
+.navbar-toggler-icon {
+  position: absolute;
   top: 15px;
   right: 15px;
 }
-.links{
+.links {
   text-decoration: none;
 }
-.footer-bg{
+.footer-bg {
   background-color: rgb(233, 233, 233);
   margin: 0;
 }
@@ -88,4 +89,43 @@
 .custom-nav-link.active {
   font-weight: bold;
 }
+.min-width {
+  min-width: 400px;
+}
+.blue {
+  color: #387ed1;
+}
+.bg-blue {
+  background-color: #387ed1;
+  color: white;
+  a {
+    text-decoration: underline;
+    color: white;
+  }
+}
+.support-input {
+  width: 100%;
+}
+.search-icon{
+  position: absolute;
+  right: 0;
+}
+/* styles.css */
+.input-container {
+  position: relative;
+  width: 100%; /* Adjust as needed */
+}
 
+.support-input {
+  width: 100%;
+  padding-right: 30px; /* Adjust padding to avoid overlapping the icon */
+}
+
+.search-icon {
+  position: absolute;
+  right: 10px; /* Adjust to position the icon inside the input */
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none; /* Make sure the icon doesn't block input events */
+  color: gray; /* Optional: change the icon color */
+}
